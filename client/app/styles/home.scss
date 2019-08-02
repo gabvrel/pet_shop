@@ -1,0 +1,135 @@
+.welcome_home{
+    background-image: url(../styles/img/dog_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position-y: -140px;
+    text-align: end;
+    line-height: 65px;
+    div{
+        position: relative;
+        top: 70px;
+    }
+}
+
+.grey_back{
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+    .welcome_product.wrapper{
+        padding-top: 55px;
+        div.shadow{
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            display: flex;
+            flex-direction: row;
+            div.shadow_1{
+                flex: 3;
+                padding: 45px;
+                p{
+                    color: #2e2e2e;
+                    font-family: 'Circe Light';
+                    font-size:18px;
+                    line-height: 30px;
+                    margin-bottom: 25px;
+                }
+            }
+            div.shadow_2{
+                background-image: url(../styles/img/861.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 450px;
+                background-position-x: -65px;
+                position: relative;
+            }
+            div.shadow_2::after{
+                content: 'Ofertas Especiales';
+                color: white;
+                font-family: 'Circe Bold';
+                padding: 10px;
+                background-color:aquamarine;
+                position: absolute;
+                right: 20px;
+                top: 20px;
+            }
+        }
+    }
+    .welcome_collage.wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns:  repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        .banner_right{
+            grid-column: span 2;
+            grid-row: span 2;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            .doctor_back{
+                background-image: url(../styles/img/doctor.jpg);
+                background-size: cover;
+                height: 65%;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-position-y: -135px;
+            }
+            .doctor_desc{
+                text-align: center;
+            }
+        }
+        .wow, .wow_2{
+            height: 282px;
+        }
+        .wow_1{
+            background: #84e6f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+                color: black;
+                font-family: 'Circe Extra Bold';
+                font-size: 40px;
+                margin-bottom: 0px;
+            }
+            p{
+                color: #f62f5e;
+                font-family: 'Circe Extra Bold';
+                font-size: 25px;
+            }
+        }
+    }
+}
+.dog_back{
+    background-image: url('../styles/img/64825.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subscribe{
+    background: #efefef;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    .subs_text{
+        padding: 35px 25px 35px 25px;
+        max-width: 60%;
+        text-align: center;
+        h2{
+            color: #f62f5e;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            font-size: 35px;
+        }
+        p{
+            font-family: 'Circe Bold';
+            font-size: 22px;
+            margin-top: 5px;
+        }
+        input{
+            border-radius: 33px;
+            width: 250px;
+            margin-right: 25px;
+            height: 25px;
+            border: 0 !important;
+        }
+    }
+}

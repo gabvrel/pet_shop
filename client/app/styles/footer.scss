@@ -1,0 +1,25 @@
+.footer.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    div h2{
+        margin: 0px;
+    }
+    div ul{
+        list-style: none;
+        padding: 0;
+        line-height: 30px;
+        color: #2e2e2e;
+        font-family: 'Circe Light';
+        font-size: 18px;
+    }
+    div p{
+        margin: 0px;
+        line-height: 30px;
+        color: #2e2e2e;
+        font-family: 'Circe Light';
+        font-size: 18px;
+    }
+}

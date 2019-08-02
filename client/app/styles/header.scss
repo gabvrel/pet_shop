@@ -1,0 +1,45 @@
+.Header {
+    display: flex;
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: white;
+    transition: top 0.1s ease-in-out;
+    a{
+        text-decoration: none;
+        color: #2e2e2e;
+        transition: all 0.2s ease-in-out;
+        position: relative;
+    }
+    a:hover{
+        color: #f62f5e;
+    }
+    a:before, a:after{
+        content: '';
+        position: absolute;
+        bottom: 15px;
+        width: 0px;
+        height: 3px;
+        margin: 3px 0 0;
+        transition: all 0.2s ease-in-out;
+        transition-duration: 0.55s;
+        opacity: 0;
+    }
+    a:after{
+        left: 0;
+        background: #f62f5e;
+    }
+    a:hover:before, a:hover:after{
+        width: 100%;
+        opacity: 1;
+    }
+    a:nth-child(6):before, a:nth-child(6):after{
+        bottom: 0px;
+    }
+}
+.Header.wrapper.xd{
+    top: -105px;
+}

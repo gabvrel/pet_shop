@@ -1,0 +1,13 @@
+.cart_Product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    img {
+        max-width: 75px;
+        max-height: 75px;
+    }
+    button {
+        max-height: 20px;
+    }
+}
